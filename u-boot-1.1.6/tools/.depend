@@ -1,10 +1,10 @@
 environment.o: environment.c /usr/include/stdc-predef.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/environment.h
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/config.h \
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/configs/100ask24x0.h \
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/cmd_confdefs.h \
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/environment.h
 crc32.o: crc32.c /usr/include/stdc-predef.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/zlib.h
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/zlib.h
 img2srec.o: img2srec.c /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -92,7 +92,7 @@ mkimage.o: mkimage.c /usr/include/stdc-predef.h /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/image.h
 envcrc.o: envcrc.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -121,9 +121,9 @@ envcrc.o: envcrc.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
- /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/config.h \
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/configs/100ask24x0.h \
+ /home/ccdroid/jz2440-2.6/u-boot-1.1.6/include/cmd_confdefs.h
 gen_eth_addr.o: gen_eth_addr.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
