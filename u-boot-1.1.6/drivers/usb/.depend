@@ -1,0 +1,178 @@
+usbin.o: usbin.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h \
+  usb.h usblib.h usbsetup.h usbin.h
+usblib.o: usblib.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h 2440usb.h usbmain.h \
+  usblib.h /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h usbsetup.h
+usbmain.o: usbmain.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h 2440usb.h usbmain.h \
+  usblib.h /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h usbsetup.h \
+  usbout.h usbin.h
+usbout.o: usbout.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h \
+  usb.h usblib.h usbsetup.h usbout.h usbinit.h
+usbsetup.o: usbsetup.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h \
+  usb.h usblib.h usbsetup.h
+usbinit.o: usbinit.c /home/ccdroid/jz2440/u-boot-1.1.6/include/common.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /opt/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/part.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/ide.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/flash.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/image.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c2410.h \
+  /home/ccdroid/jz2440/u-boot-1.1.6/include/s3c24x0.h usbmain.h usbout.h \
+  usblib.h 2440usb.h /home/ccdroid/jz2440/u-boot-1.1.6/include/def.h
