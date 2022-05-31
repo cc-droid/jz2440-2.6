@@ -3,7 +3,7 @@
 # 
 PWD=$(shell pwd)
 
-.PHONY:uboot uboot_clean kernel kernel_clean busybox busybox_clean yaffs2 yaffs2_clean
+.PHONY:uboot uboot_clean kernel kernel_clean busybox busybox_clean yaffs2 yaffs2_clean modules modules_clean
 
 all:uboot kernel busybox yaffs2 
 	$(info "build done.")
@@ -18,6 +18,7 @@ kernel:
 	make -C linux-2.6.22.6 100ask2440_defconfig
 	make -C linux-2.6.22.6 -j`nproc`
 	make -C linux-2.6.22.6 uImage
+	ln -s `pwd`/modules `pwd`/linux-2.6.22.6/modules
 kernel_clean:
 	make -C linux-2.6.22.6 clean
 
@@ -38,7 +39,10 @@ yaffs2:
 	./mkyaffs2_mdev.sh	
 yaffs2_clean:
 	rm -rf busybox-1.7.0/*.yaffs2
-	
+modules:
+	make -C modules
+modules_clean:
+	make -C modules clean
 clean: uboot_clean kernel_clean busybox_clean yaffs2_clean
 	$(info "clean done.")
 
